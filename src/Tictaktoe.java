@@ -167,6 +167,11 @@ public class Tictaktoe implements ActionListener {
         buttons[a].setBackground(Color.GREEN);
         buttons[b].setBackground(Color.GREEN);
         buttons[c].setBackground(Color.GREEN);
+
+        buttons[a].setOpaque(true);
+        buttons[b].setOpaque(true);
+        buttons[c].setOpaque(true);
+
         for (JButton button : buttons) {
             button.setEnabled(false);
         }
@@ -177,6 +182,11 @@ public class Tictaktoe implements ActionListener {
         buttons[a].setBackground(Color.GREEN);
         buttons[b].setBackground(Color.GREEN);
         buttons[c].setBackground(Color.GREEN);
+
+        buttons[a].setOpaque(true);
+        buttons[b].setOpaque(true);
+        buttons[c].setOpaque(true);
+
         for (JButton button : buttons) {
             button.setEnabled(false);
         }
